@@ -1,1 +1,1 @@
-# LLAVA_CV
+# Fine-tuning a Multimodal Model for Healthcare
