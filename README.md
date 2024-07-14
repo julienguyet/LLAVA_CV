@@ -16,6 +16,8 @@ In this project, we have fine-tuned LLaVA, a multimodal model combining the powe
 
 Experiments and detailled results are available in the dedicated LLAVA_fine_tuned notebook. 
 
+---
+
 ## 3. Results :checkered_flag:
 
 With a training on only 1200 samples from the train set and on 3 epochs, we already observed strong performance from the model, with an accuracy of 67%. That said, additional research is needed to confirm those results: due to its verbosity, the model sometimes fails to be concise and therefore its answers can be quite different from the correct answers from the dataset. However, after manual review, some generated outputs appears to be quite correct but rephrased in a total different way. This highlight the need to involve physicians in the evaluating process when fine-tuning VLMs on such datasets.
